@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbl_departamentos",
+  "info": {
+    "singularName": "tbl-departamento",
+    "pluralName": "tbl-departamentos",
+    "displayName": "Tbl_Departamentos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CodDepartamento": {
+      "type": "string"
+    },
+    "NombreDepartamento": {
+      "type": "string"
+    },
+    "IdPais": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tbl-country.tbl-country"
+    }
+  }
+}

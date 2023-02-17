@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbl_clasificacions",
+  "info": {
+    "singularName": "tbl-clasificacion",
+    "pluralName": "tbl-clasificacions",
+    "displayName": "Tbl_Clasificacion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Clasificacion": {
+      "type": "string"
+    }
+  }
+}

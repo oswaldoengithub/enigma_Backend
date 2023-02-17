@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbl_datos_personales",
+  "info": {
+    "singularName": "tbl-dato-personal",
+    "pluralName": "tbl-datos-personales",
+    "displayName": "Tbl_DatosPersonales",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TipoId": {
+      "type": "string"
+    },
+    "NroId": {
+      "type": "string"
+    },
+    "Nombres": {
+      "type": "string"
+    },
+    "Apellidos": {
+      "type": "string"
+    },
+    "Profesion": {
+      "type": "string"
+    },
+    "EstadoCivil": {
+      "type": "string"
+    },
+    "CodPaisNacimiento": {
+      "type": "integer"
+    },
+    "CodDeptoNacimiento": {
+      "type": "integer"
+    },
+    "CodMunNacimiento": {
+      "type": "integer"
+    },
+    "FechaNacimiento": {
+      "type": "date"
+    },
+    "Religion": {
+      "type": "string"
+    },
+    "TelefonoFijo": {
+      "type": "string"
+    },
+    "TelefonoMovil": {
+      "type": "string"
+    },
+    "DireccionResidencia": {
+      "type": "string"
+    },
+    "CodPaisResidencia": {
+      "type": "integer"
+    },
+    "CodDeptoResidencia": {
+      "type": "integer"
+    },
+    "CodMunResidencia": {
+      "type": "integer"
+    },
+    "BarrioResidencia": {
+      "type": "string"
+    },
+    "FechaInscripcion": {
+      "type": "datetime"
+    },
+    "EstadoPersona": {
+      "type": "integer"
+    }
+  }
+}

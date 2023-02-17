@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbl_tipo_clasificacions",
+  "info": {
+    "singularName": "tbl-tipo-clasificacion",
+    "pluralName": "tbl-tipo-clasificacions",
+    "displayName": "Tbl_tipo_clasificacion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tipo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "IdClasificacion": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbl_logias",
+  "info": {
+    "singularName": "tbl-logia",
+    "pluralName": "tbl-logias",
+    "displayName": "Tbl_Logia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NombreLogia": {
+      "type": "string"
+    },
+    "CodPaisLogia": {
+      "type": "integer"
+    },
+    "CodDeptoLogia": {
+      "type": "integer"
+    },
+    "CodMunLogia": {
+      "type": "integer"
+    },
+    "DireccionLogia": {
+      "type": "string"
+    },
+    "TelefonoFijo": {
+      "type": "string"
+    },
+    "TelefonoMovil": {
+      "type": "string"
+    },
+    "EmailLogia": {
+      "type": "email"
+    },
+    "EncargadoLogia": {
+      "type": "string"
+    }
+  }
+}
